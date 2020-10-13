@@ -33,7 +33,6 @@ import settings as s
 app = Flask(__name__)
 app.config.from_object(__name__)
 
-
 iplist, niplist = ip_lists(s.IP_LISTS_PATH)
 
 
